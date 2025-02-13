@@ -1,0 +1,236 @@
+body.TheWholeShebang {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* This is the Header Section */
+
+.Header {
+    height: 64px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.HeaderLogo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+    display: flex;
+    margin: 16px 48px;
+}
+
+.LinkList {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-right: 48px;
+}
+
+/* End of the Header Section */
+
+/* Start of the Welcome Banner Section */
+
+.WelcomeBanner {
+    height: 400px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.WelcomeBannerText {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    flex: 1 1 500px;
+    gap: 8px;
+    margin-left: 48px;
+
+}
+
+.WelcomeBannerHeader {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.WelcomeBannerContent {
+    font-size: 18px;
+    font-weight: 500;
+    color: #E5E7EB;
+}
+.WelcomeBannerButton {
+    height: 32px;
+    width: 100px;
+    border-radius: 8px;
+    border: 0px;
+    font-weight: 900;
+    background-color: #3882f6;
+    color: white;
+}
+.WelcomeBannerButton:hover {
+    background-color: white;
+    color: #3882f6
+}
+
+.WelcomeBannerimg {
+    margin-right: 48px;
+}
+
+/* End of the Welcome Banner Section */
+
+/* Start of the MainContent Section/ Card Section */
+
+.MainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 500px;
+    gap: 48px;
+}
+
+.MainContentHeader {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    align-self: center;
+}
+
+.MainContentCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 16px;
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    max-width: 300px;
+}
+
+.img {
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    max-height: 200px
+}
+
+.CardText {
+    font-size: 14px;
+    font-weight: 500;
+    color: #74777e;
+    text-align: center;
+}
+/* End of the MainContent Section/ Card Section */
+
+/* Start of Inspiring Quote Section */
+
+.InspoQuoteBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 500px;
+    gap: 16px;
+    background-color: #E5E7EB;
+}
+
+.InspoQuote {
+    /* max-width: 800px; */
+    margin: 0 25%;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+.InspoQuoteCredit {
+    align-self: flex-end;
+    margin: 0px 25%;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/* End of Inspiring Quote Section */
+
+/* Start of SignUp Banner Section */
+
+.SignUpBanner {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.SignUpBannerBox {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    margin: 0 15%;
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.SignUpBannerMainText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.SignUpBannerHeader {
+    font-size: 24px;
+    font-weight: 900;
+    color: whitesmoke;
+}
+
+.SignUpBannerSubtext {
+    font-size: 16px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+.SignUpBannerButton {
+    background-color: #3882f6;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    height: 32px;
+    width: 100px;
+    border-radius: 8px;;
+    align-self: center;
+}
+
+.SignUpBannerButton:hover {
+    background-color: whitesmoke;
+    border: 2px solid black;
+    color: #3882f6
+}
+
+/* End of SignUp Banner Section */
+
+/* Start of Footer Section */
+
+.Footer {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #1F2937;
+    color: #F9FAF8
+}
+
+/* End of Footer Section */
